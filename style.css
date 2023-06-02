@@ -1,0 +1,27 @@
+*{
+    margin: auto;
+    padding: auto;
+
+    box-sizing: border-box;
+}
+.box-container{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: 600px;
+    width: 500px;
+    background-color: rgb(237, 98, 195);
+}
+.heart{
+    image-resolution: 100%;
+    
+    position: relative;
+    margin: 100px auto;
+    animation: pulse 1s infinite alternate;
+}
+@keyframes pulse{
+    0%{transform: scale(0.9)}
+    100%{transform: scale(1.1)}
+}
